@@ -1,0 +1,13 @@
+[project]
+name = "model-car"
+version = "0.1.0"
+dependencies = [
+    "streamlit",
+    "joblib",
+    "numpy",
+    "pandas",
+    "scikit-learn==1.6.1"
+]
+
+[project.scripts]
+app = "app:app"
