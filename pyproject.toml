@@ -3,6 +3,8 @@ name = "model-car"
 version = "0.1.0"
 dependencies = [
     "streamlit",
+    "fastapi",
+    "uvicorn",
     "joblib",
     "numpy",
     "pandas",
